@@ -90,8 +90,33 @@ main {
 /* =============================
 GAME BOARD
 ================================ */
+#user-score {
+  font-weight: bold;
+  font-size: 22px;
+  border: 5px dotted black;
+  max-width: 400px;
+  display: inline-block;
+  padding: 5px 20px;
+  line-height: 20px;
+}
+
 img {
   margin: 40px 8px 0;
+}
+
+button {
+  padding: 20px 50px;
+  background-color: #00A6B3;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: none;
+}
+
+button.active {
+  display: inline;
 }
 
 /* =============================
